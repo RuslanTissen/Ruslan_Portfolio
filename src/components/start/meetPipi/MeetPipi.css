@@ -1,0 +1,74 @@
+.meet-pipi__container {
+  background-color: rgb(45, 46, 45);
+  color: white;
+}
+.meet-pipi__container .meet-pipi__container-title-box {
+  padding: 3.5rem clamp(3rem, 10vw, 5rem) 2.5rem;
+}
+.meet-pipi__container .meet-pipi__container-title-box .meet-pipi__container-title-box--title {
+  text-transform: uppercase;
+  font-size: clamp(2.5rem, 5vw, 3rem);
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.3rem;
+  margin: 0;
+}
+.meet-pipi__container .meet-pipi__container-title-box .meet-pipi__container-title-box--underline-dig {
+  width: 180px;
+  height: 0.5rem;
+  background-color: rgb(166, 148, 148);
+}
+.meet-pipi__container .meet-pipi__container-title-box .meet-pipi__container-title-box--underline-thin {
+  width: auto;
+  height: 1px;
+  background-color: rgb(166, 148, 148);
+}
+.meet-pipi__container .meet-pipi__container-1 .meet-pipi__container-1--img-box {
+  height: 700px;
+  background-image: url("../../../images/MeetPipi.jpg");
+  background-position-y: -5vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.meet-pipi__container .meet-pipi__container-1--text-box {
+  padding: 3.5rem clamp(3rem, 10vw, 5rem) 2.5rem;
+}
+.meet-pipi__container .meet-pipi__container-1--text-box .meet-pipi__container-1--text-box--name {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: to-upper-case;
+  line-height: 95%;
+  font-size: 1.8rem;
+}
+.meet-pipi__container .meet-pipi__container-1--text-box .meet-pipi__container-1--text-box--info {
+  font-size: clamp(1.2rem, 3vw, 1.3rem);
+  font-weight: 300;
+  color: rgb(255, 253, 253);
+  line-height: 150%;
+}
+.meet-pipi__container .meet-pipi__container-1--text-box .meet-pipi__container-1--text-box--btn {
+  display: flex;
+  align-items: center;
+}
+.meet-pipi__container .meet-pipi__container-1--text-box .meet-pipi__container-1--text-box--btn .meet-pipi__container-1--text-box--btn-white {
+  padding: 0.5rem 1.5rem;
+  color: rgb(45, 46, 45);
+  text-decoration: none;
+  background-color: white;
+  font-size: clamp(1rem, 3vw, 1.3rem);
+  border: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+.meet-pipi__container .meet-pipi__container-1--text-box .meet-pipi__container-1--text-box--btn .meet-pipi__container-1--text-box--btn-gray {
+  padding: 0.5rem 1rem;
+  font-size: clamp(1rem, 3vw, 1.3rem);
+  border: none;
+  color: rgb(45, 46, 45);
+  background-color: #e8c061;
+}/*# sourceMappingURL=MeetPipi.css.map */

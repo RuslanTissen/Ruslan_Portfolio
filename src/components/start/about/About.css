@@ -1,0 +1,71 @@
+.about__container {
+  display: flex;
+  flex-direction: column;
+}
+.about__container .about__container--text-container {
+  flex: 1 1 100%;
+  background-color: rgb(90, 54, 58);
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  padding: 0 clamp(3rem, 10vw, 5rem);
+}
+.about__container .about__container--text-container .about__container--text-container--box {
+  margin: 5rem auto 6rem auto;
+}
+.about__container .about__container--text-container .about__container--text-container--box .about__container--text-container__title {
+  font-size: clamp(2.5rem, 5vw, 3rem);
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.3rem;
+  margin-bottom: 0;
+}
+.about__container .about__container--text-container .about__container--text-container--box .about__container--text-container__underline-dig {
+  width: 180px;
+  height: 0.5rem;
+  background-color: rgb(166, 148, 148);
+}
+.about__container .about__container--text-container .about__container--text-container--box .about__container--text-container__underline-thin {
+  width: auto;
+  height: 1px;
+  background-color: rgb(166, 148, 148);
+}
+.about__container .about__container--text-container .about__container--text-container--box .about__container--text-container__text-about {
+  max-width: 400px;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 100;
+  color: rgb(221, 220, 220);
+  line-height: 180%;
+}
+.about__container .about__container--image-container {
+  width: 100%;
+  height: 500px;
+  background-attachment: fixed;
+  background-image: url("../../../images/about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+@media (min-width: 1060px) {
+  .about__container {
+    flex-direction: row;
+  }
+  .about__container .about__container--text-container {
+    flex: 1 1 40%;
+  }
+  .about__container .about__container--text-container .about__container--text-container--box {
+    margin: 10rem auto 20rem auto;
+  }
+  .about__container .about__container--text-container .about__container--text-container--box .about__container--text-container__title {
+    display: flex;
+    flex-direction: column;
+    line-height: 95%;
+    margin-bottom: 1rem;
+  }
+  .about__container .about__container--image-container {
+    flex: 1 1 60%;
+    height: inherit;
+    background-position-x: 20vw;
+  }
+}/*# sourceMappingURL=About.css.map */

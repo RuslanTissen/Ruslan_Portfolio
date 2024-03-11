@@ -1,0 +1,40 @@
+.motto {
+	height: clamp(300px, calc(100vw - 500px), 600px);
+	background-image: linear-gradient(225deg, rgba(48, 41, 42, 0.7), rgba(52, 46, 47, 0.7)),
+		url("../../../images/success-dark.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	.motto__cont {
+		max-height: fit-content;
+		flex: 1 1 80vw;
+		max-width: 500px;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		gap: 2rem;
+		.motto__cont--text {
+			font-size: clamp(1rem, 4vw, 2rem);
+			animation: text-change 20s infinite;
+		}
+		@keyframes text-change {
+			0% { content: "Text 1"; }
+			25% { content: "Text 2"; }
+			50% { content: "Text 3"; }
+			75% { content: "Text 4"; }
+			100% { content: "Text 1"; }
+		 }
+		.motto__cont--name {
+			font-size: clamp(.8rem, 3vw, 1.5rem);
+			font-weight: 800;
+			text-transform: uppercase;
+		}
+	}
+}

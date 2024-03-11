@@ -1,0 +1,126 @@
+.introduction__container {
+  font-family: "Open Sans", sans-serif;
+  justify-content: center;
+  background-attachment: fixed;
+  background-image: url("../../../images/introduction-light-dark.jpg");
+  background-position: top -350px center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding-top: 11rem;
+}
+.introduction__container .introduction__container--social-media {
+  width: 100%;
+  margin: 0.5rem clamp(2rem, 3vw, 3rem);
+}
+.introduction__container .introduction__container--social-media .introduction__container--social-media__links {
+  color: white;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  margin-left: 1rem;
+}
+.introduction__container .introduction__container--social-media .introduction__container--social-media--scroll-container {
+  display: none;
+}
+.introduction__container .introduction__container--moto {
+  color: white;
+  font-size: clamp(2.8rem, 13vw, 7rem);
+  font-weight: 800;
+  line-height: 90%;
+  margin: 3.5rem clamp(2rem, 3vw, 3rem) 1rem;
+  text-transform: uppercase;
+  letter-spacing: clamp(2px, 5vw, 3px);
+  word-spacing: clamp(5px, 2vw, 8px);
+}
+.introduction__container .introduction__container--moto-italice {
+  color: #e8c061;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  margin: 0rem clamp(2rem, 3vw, 3rem);
+  font-style: italic;
+}
+.introduction__container .introduction__container--button {
+  display: flex;
+  align-items: center;
+  margin: 5rem clamp(2rem, 3vw, 3rem) 6rem;
+}
+.introduction__container .introduction__container--button .introduction__container--button-text {
+  padding: 0.5rem 1.5rem;
+  color: rgb(45, 46, 45);
+  text-decoration: none;
+  background-color: white;
+  font-size: clamp(1rem, 3vw, 1.3rem);
+  border: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+.introduction__container .introduction__container--button .introduction__container--button-arrow {
+  padding: 0.5rem 1rem;
+  font-size: clamp(1rem, 3vw, 1.3rem);
+  border: none;
+  color: rgb(45, 46, 45);
+  background-color: #e8c061;
+}
+@media (min-width: 1060px) {
+  .introduction__container {
+    background-position: top -40vw center;
+    position: relative;
+  }
+  .introduction__container .introduction__container--social-media {
+    position: fixed;
+    margin: 0.5rem auto -18rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .introduction__container .introduction__container--social-media .introduction__container--social-media--link-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .introduction__container .introduction__container--social-media .introduction__container--social-media--link-container .introduction__container--social-media__links {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .introduction__container .introduction__container--social-media .introduction__container--social-media--scroll-container {
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    transform: rotate(90deg);
+    margin: auto 0;
+  }
+  .introduction__container .introduction__container--social-media .introduction__container--social-media--scroll-container p {
+    width: inherit;
+    color: rgb(204, 201, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .introduction__container .introduction__container--social-media .introduction__container--social-media--scroll-container p svg {
+    margin: 0 1rem 0;
+  }
+  .introduction__container .introduction__container--moto {
+    max-width: 800px;
+    letter-spacing: 5px;
+    margin: clamp(0.5rem, 4vw, 4rem) clamp(5rem, 10vw, 10rem) 0.5rem;
+  }
+  .introduction__container .introduction__container--moto-italice {
+    max-width: 800px;
+    margin: 0.5rem clamp(5rem, 10vw, 10rem);
+  }
+  .introduction__container .introduction__container--button {
+    margin: 7rem clamp(5rem, 10vw, 10rem) 10rem;
+    z-index: 100;
+  }
+  .introduction__container .introduction__container--button .introduction__container--button-text {
+    transition: all 0.3s ease-in-out;
+  }
+  .introduction__container .introduction__container--button .introduction__container--button-text:hover {
+    background-color: rgb(102, 101, 101);
+    color: white;
+  }
+}/*# sourceMappingURL=Introduction.css.map */

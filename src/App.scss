@@ -1,0 +1,137 @@
+@import "../node_modules/rfs/scss";
+
+.App{
+	display:flex;
+   flex-direction:column;
+
+   /* fallback height */
+   min-height:100vh;
+
+   /* new small viewport height for modern browsers */
+   min-height:100svh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .title__super__include {
+// 	@include font-size(6rem);
+// }
+// .title__picture--include {
+// 	@include font-size(5rem);
+// }
+// .title__include {
+// 	@include font-size(2.5rem);
+// 	font-family: "Tomorrow", sans-serif;
+// 	text-align: center;
+// 	font-weight: 300;
+// }
+// .title__midle__include {
+// 	@include font-size(2rem);
+// }
+// .text__include {
+// 	@include font-size(1.5rem);
+// }
+
+
+
+
+
+//  ----------- TITLE -----------------------------------------------------
+// .title {
+// 	font-size: calc(1.525rem + 3.3vw);
+// }
+// @media (min-width: 1200px) {
+// 	.title {
+// 		font-size: 4rem;
+// 	}
+// }
+// ------------------TITLE END --------------------------------------------
+
+
+
+
+
+
+// ------------------------- MIXIN FONT SISE ------------------------------
+
+// $remBase: 16; //set base font size. unitless value in pixels.
+// $widthMin: 480; //set small breakpoint. unitless value in pixels.
+// $widthMax: 1024; //set large breakpoint. unitless value in pixels.
+
+// @mixin font-size($valueMin, $valueMax) {
+// 	$fontMin: $valueMin * $remBase;
+// 	$fontMax: $valueMax * $remBase;
+
+// 	font-size: $valueMin * 1rem;
+
+// 	@media (min-width: #{$widthMin}px) {
+// 		font-size: calc(
+// 			#{$fontMin}px + (#{$fontMax} - #{$fontMin}) * ((100vw - #{$widthMin}px) / (#{$widthMax} - #{$widthMin}))
+// 		);
+// 	}
+
+// 	@media (min-width: #{$widthMax}px) {
+// 		font-size: $valueMax * 1rem;
+// 	}
+// }
+
+// .h2_mixin {
+// 	@include font-size(1.125, 1.875);
+// }
+
+// .h3__mixin--bold {
+// 	@include font-size(1.125, 1.5);
+// 	font-weight: 600;
+// 	font-family: "Tomorrow", sans-serif;
+// }
+
+// .h3__mixin--bold--with-padding {
+// 	@include font-size(1.125, 1.5);
+// 	padding-top: 3rem;
+// 	padding-bottom: 1rem;
+// 	padding-inline: 1rem;
+// 	font-weight: 600;
+// 	font-family: "Tomorrow", sans-serif;
+// }
+// .regular-text__mixin {
+// 	@include font-size(1, 1.25);
+// 	font-weight: 300;
+// 	font-family: "Tomorrow", sans-serif;
+// }
+// .regular-text__mixin--with-padding {
+// 	@include font-size(1, 1.25);
+// 	@include padding(0.5rem);
+// 	font-weight: 300;
+// 	font-family: "Tomorrow", sans-serif;
+// }
+
+// ----------------------- END MIXIN FONT SISE ------------------
+
+// .card-title{
+// 	@include font-size(2.5rem);
+// }
+// .card-text{
+// 	@include font-size(1.1rem);
+// }
+// .btn-primary{
+// 	@include font-size(2rem);
+// }
+// .card-img {
+// 	@include padding-top(1rem);
+// }
+// .services__branches__coontainer__boxes{
+// 	@include padding(2rem);
+// }
