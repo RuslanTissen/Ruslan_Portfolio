@@ -96,7 +96,7 @@ function Header() {
 			<div className='header__pc-cont'>
 				<div className="header__pc-cont--ul-cont">
 					<ul className='ul-self'>
-						<li className='li-self li1'><NavLink to="*" onClick={scrollToTheTop}>Ruslan Tissen</NavLink> </li>
+						<li className='li-self li1'><NavLink to="*" onClick={scrollToTheTop}><span>R</span> T</NavLink> </li>
 					</ul>
 
 					<ul className="second-ul">
