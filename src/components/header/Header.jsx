@@ -76,8 +76,27 @@ function Header() {
 
 	return (
 		<div className='header' id='header'>
-			<ul className="header__smart-cont" ref={menuRef}>
-				<li className='header__smart-cont--logo-box'><NavLink to="*" onClick={scrollToTheTop}><span>R</span> T</NavLink> </li>
+			<label className='hamburger-menu'>
+				<input type="checkbox" />
+			</label>
+			<aside className='sidebar'>
+				<nav>
+					<div>Home</div>
+					<div>About</div>
+					<div>My works</div>
+					<div>Contact</div>
+				</nav>
+			</aside>
+
+
+
+
+
+			{/* <ul className="header__smart-cont" ref={menuRef}>
+				<li className='header__smart-cont--logo-box'>
+					<NavLink to="*" onClick={scrollToTheTop}>
+						TISSEN</NavLink>
+				</li>
 				<li className='header__smart-cont--hamburger-box' onClick={toggleMenu}>
 					{active ? <RxHamburgerMenu /> : <RxCross1 />}
 				</li>
@@ -87,16 +106,20 @@ function Header() {
 					<li className='humb-link'><NavLink to="*" onClick={scrollToTheTop}>My works</NavLink> </li>
 					<li className='humb-link'><NavLink to="*" onClick={scrollToTheTop}>Contact</NavLink> </li>
 					<li className='humb-link humb-link--lang'>
-							<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ES</button>
-							<button className="button-eng" value="en" onClick={(e) => setLang(e.target.value)}>EN</button>
+						<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ES</button>
+						<button className="button-eng" value="en" onClick={(e) => setLang(e.target.value)}>EN</button>
 					</li>
 				</ul>}
-			</ul>
+			</ul> */}
 
 			<div className='header__pc-cont'>
 				<div className="header__pc-cont--ul-cont">
 					<ul className='ul-self'>
-						<li className='li-self li1'><NavLink to="*" onClick={scrollToTheTop}><span>R</span> T</NavLink> </li>
+						<li className='li-self li1'>
+							<NavLink to="*" onClick={scrollToTheTop}>
+								{/* <span>R</span> */}
+								TISSEN</NavLink>
+						</li>
 					</ul>
 
 					<ul className="second-ul">
