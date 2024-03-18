@@ -76,26 +76,9 @@ function Header() {
 
 	return (
 		<div className='header' id='header'>
-			<label className='hamburger-menu'>
-				<input type="checkbox" />
-			</label>
-			<aside className='sidebar'>
-				<nav>
-					<div>Home</div>
-					<div>About</div>
-					<div>My works</div>
-					<div>Contact</div>
-				</nav>
-			</aside>
-
-
-
-
-
-			{/* <ul className="header__smart-cont" ref={menuRef}>
+			<ul className="header__smart-cont" ref={menuRef}>
 				<li className='header__smart-cont--logo-box'>
-					<NavLink to="*" onClick={scrollToTheTop}>
-						TISSEN</NavLink>
+					<NavLink to="*" onClick={scrollToTheTop}>	TISSEN</NavLink>
 				</li>
 				<li className='header__smart-cont--hamburger-box' onClick={toggleMenu}>
 					{active ? <RxHamburgerMenu /> : <RxCross1 />}
@@ -110,7 +93,7 @@ function Header() {
 						<button className="button-eng" value="en" onClick={(e) => setLang(e.target.value)}>EN</button>
 					</li>
 				</ul>}
-			</ul> */}
+			</ul>
 
 			<div className='header__pc-cont'>
 				<div className="header__pc-cont--ul-cont">
