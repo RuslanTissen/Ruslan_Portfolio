@@ -3,26 +3,21 @@
 	font-family: "Open Sans", sans-serif;
 	.header__smart-cont {
 		width: 100%;
-		// max-width: 1500px;
 		z-index: 100;
 		position: absolute;
 		top: 0;
 		margin: 0 auto;
-		padding: 0.5rem clamp(2rem, 3vw, 3rem);
+		padding: 0.5rem var(--padding-section);
 		list-style-type: none;
 		display: flex;
-		.header__smart-cont--logo-box {
-			list-style-type: none;
-			flex: 1 1 80%;
+		.logo {
 			font-style: to-upper-case;
 			font-size: clamp(1.2rem, 3vw, 1.5rem);
-			a {
-				text-decoration: none;
-				font-weight: 700;
-				font-style: to-upper-case;
-				color: rgb(29, 66, 118);
-				padding-right: 1rem;
-			}
+			flex: 1 1 80%;
+			text-decoration: none;
+			font-weight: 700;
+			font-style: to-upper-case;
+			color: rgb(29, 66, 118);
 		}
 		.header__smart-cont--hamburger-box {
 			flex: 1 1 20%;
@@ -65,8 +60,77 @@
 	.header__pc-cont {
 		display: none;
 	}
-}
-@media (min-width: 1060px) {
+	@media (min-width: 1060px) {
+		.header__smart-cont {
+			display: none;
+		}
+		.header__pc {
+			.header__pc-cont {
+				display: flex;
+				max-width: 1500px;
+				margin: 0 auto;
+				padding: 0 var(--padding-section);
+				.logo-pc {
+					text-transform: uppercase;
+					font-size: clamp(1.5rem, 5vw, 1.7rem);
+					flex: 1 1 10%;
+					text-decoration: none;
+					font-weight: 700;
+					color: rgb(29, 66, 118);
+					display: flex;
+					align-items: center;
+				}
+				.nav {
+					flex: 1 1 80%;
+					display: flex;
+					justify-content: flex-end;
+					margin-block: 0.5rem;
+					.li-self {
+						list-style: none;
+						margin: 0 1rem;
+						font-size: 1rem;
+						a {
+							text-decoration: none;
+							text-transform: uppercase;
+							font-weight: 700;
+
+						}
+					}
+					.dropdown {
+						margin: 0 1rem;
+						list-style: none;
+						position: relative;
+						.dropdown__link {
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							cursor: pointer;
+							svg {
+								font-size: 1.1rem;
+								color: rgb(29, 66, 118);
+								margin-top: 1px;
+							}
+						}
+						.drpdwn-lang {
+							width: fit-content;
+							height: fit-content;
+							// display: flex;
+							position: absolute;
+							right: -6px;
+							top: 30px;
+							button {
+								cursor: pointer;
+								padding: 5px 0;
+								background-color: transparent;
+								border: none;
+								color: rgb(29, 66, 118);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }
 
 // media (min-width: 1060px) {

@@ -1,5 +1,9 @@
 @import "../node_modules/rfs/scss";
 
+:root{
+	--padding-section: clamp(1rem, 3vw, 3rem);
+}
+
 .App{
 	display:flex;
    flex-direction:column;
