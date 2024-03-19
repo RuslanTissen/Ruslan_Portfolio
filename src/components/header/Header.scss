@@ -15,22 +15,13 @@
 			list-style-type: none;
 			flex: 1 1 80%;
 			font-style: to-upper-case;
-			font-size: 1.8rem;
+			font-size: clamp(1.2rem, 3vw, 1.5rem);
 			a {
 				text-decoration: none;
-				color: black;
 				font-weight: 700;
 				font-style: to-upper-case;
 				color: rgb(29, 66, 118);
-				// border-right: 2px solid black;
-				// border-radius: 2rem;
 				padding-right: 1rem;
-				// span {
-				// 	color: rgb(0, 214, 70);
-				// border-left: 1px solid black;
-				// border-radius: 50%;
-				// padding-left: .5rem;
-				// }
 			}
 		}
 		.header__smart-cont--hamburger-box {

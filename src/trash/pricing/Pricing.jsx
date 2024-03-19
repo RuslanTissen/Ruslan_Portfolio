@@ -2,8 +2,8 @@ import React, { useContext } from 'react'
 import "./Pricing.scss"
 import { NavLink } from 'react-router-dom'
 import { FaArrowRight } from 'react-icons/fa'
-import { Context } from '../../Context.js'
-import trans from '../../Translate.js'
+import { Context } from '../../components/Context.js'
+import trans from '../../components/Translate.js'
 
 
 function Pricing() {
