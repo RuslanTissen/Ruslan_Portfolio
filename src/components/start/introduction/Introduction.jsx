@@ -10,7 +10,9 @@ import "./Introduction.scss"
 function Introduction() {
 	return (
 		<div className="introduction">
-			
+			<h3>Hi, my name is</h3>
+			<h1>Ruslan Tissen</h1>
+			<h2>I build things for the web</h2>
 		</div>
 	)
 }

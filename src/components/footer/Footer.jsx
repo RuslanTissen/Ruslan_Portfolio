@@ -15,8 +15,8 @@ function Footer() {
 	return (
 		<div className='footer'>
 
-			<div className="footer__logo footer__operation--block">
-				<h2 className='footer__logo--logo-box' ><NavLink to="*" onClick={scrollToTheTop}>Ruslan Tissen</NavLink></h2>
+			<div className="footer__cont">
+				<h2 className='footer__cont--logo' ><a href="#header" onClick={scrollToTheTop}> TISSEN</a></h2>
 
 				<p>{trans[lang].footerCopyright} <a href="https://tissen.tech/" target='_blank'>{trans[lang].footerTissen}</a> {trans[lang].footerPowered}</p>
 

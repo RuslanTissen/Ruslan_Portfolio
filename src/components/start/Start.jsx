@@ -1,10 +1,11 @@
 import React from 'react'
 import "./Start.scss"
-// 
+import About from './about/About.jsx'
+
 function Start() {
 	return (
 		<div className='start'>
-
+			<About />
 
 		</div>
 	)
