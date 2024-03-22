@@ -1,24 +1,22 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.introduction {
+	background-color: #0c374d;
+	height: auto;
+	.introduction__cont {
+		max-width: 1500px;
+		margin: 0 auto;
+		padding: clamp(3rem, 10vw, 10rem) clamp(1rem, 3vw, 3rem);
+		text-wrap: balance;
+		font-style: italic;
+		text-align: center;
+		p {
+			max-width: 750px;
+			margin: 0 auto;
+			color: white;
+			font-weight: 300;
+			font-size: clamp(1rem, 2vw, 2rem);
+		}
+	}
+}
 
 // .introduction__container {
 // 	height: fit-content;

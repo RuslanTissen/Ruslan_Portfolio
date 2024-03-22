@@ -1,11 +1,14 @@
 import React from 'react'
 import "./Start.scss"
 import About from './about/About.jsx'
+import Introduction from './introduction/Introduction.jsx'
 
 function Start() {
 	return (
 		<div className='start'>
 			<About />
+
+			<Introduction />
 
 		</div>
 	)

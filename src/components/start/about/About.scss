@@ -1,8 +1,8 @@
 .about {
-	height: min(90vh, 700px);
+	height: fit-content;
 	background-color: #3c6478;
 	color: white;
-	padding-top: clamp(3rem, 10vw, 5rem);
+	padding: clamp(3rem, 10vw, 5rem) 0 clamp(2rem, 8vw, 4rem) 0;
 	.about__cont {
 		max-width: 1500px;
 		margin: 0 auto;
