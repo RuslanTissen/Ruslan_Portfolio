@@ -1,24 +1,50 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.about {
+	height: min(90vh, 700px);
+	background-color: #3c6478;
+	color: white;
+	padding-top: clamp(3rem, 10vw, 5rem);
+	.about__cont {
+		max-width: 1500px;
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+		padding: var(--padding-section);
+		.about__cont--title {
+			flex: 1 1 100%;
+			display: flex;
+			// padding-right: 5rem;
+			.name-box {
+				flex: 1 1 50%;
+				display: flex;
+				align-items: end;
+				justify-content: end;
+				h5 {
+					width: fit-content;
+					margin: 0;
+					// margin: 0 0 0 clamp(1px, 70%, 20rem);
+				}
+			}
+			.img-cont {
+				flex: 1 1 50%;
+				.img-self {
+					width: clamp(100px, 30vw, 20rem);
+					height: clamp(100px,30vw, 20rem);
+					background-image: url("../../../images/Ruslan_Gray_Photo.jpg");
+					background-position: center;
+					background-repeat: no-repeat;
+					background-size: contain;
+					border-radius: 50rem;
+				}
+			}
+		}
+		h1 {
+			flex: 1 1 100%;
+			// margin: 0 0 0 clamp(1px, 15vw, 10rem);
+			margin: 0;
+			text-align: center;
+		}
+	}
+}
 
 // .about__container {
 // 	display: flex;

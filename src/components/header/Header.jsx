@@ -1,18 +1,14 @@
 import React, { useState, useContext, useEffect, useRef } from 'react';
 import "./Header.scss";
-// import { IoDiamondSharp } from "react-icons/io5";
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { RxCross1 } from 'react-icons/rx';
 import { Context } from '../Context.js';
 import { NavLink } from 'react-router-dom';
-import { BsGlobe } from "react-icons/bs";
 
 function Header() {
 	const [show, setShow] = useState(false);
 	const [active, setActive] = useState(true);
 	const { lang, setLang } = useContext(Context);
-	const [showLanguages, setShowLanguages] = useState(false);
-	const [showWorks, setShowWorks] = useState(false);
 
 	function toggleMenu() {
 		setShow(!show);
@@ -21,14 +17,6 @@ function Header() {
 
 	function scrollToTheTop() {
 		window.scrollTo({ top: 0, behavior: 'smooth' });
-	}
-
-	function toggleLanguages() {
-		setShowLanguages(!showLanguages);
-	}
-
-	function toggleWorks() {
-		setShowWorks(!showWorks);
 	}
 
 	const menuRef = useRef(null);
@@ -46,25 +34,11 @@ function Header() {
 		};
 	}, [menuRef]);
 
-	const languageRef = useRef(null);
-	useEffect(() => {
-		function handleClickOutside(event) {
-			if (languageRef.current && !languageRef.current.contains(event.target)) {
-				setShowLanguages(false);
-			}
-		}
-
-		document.addEventListener("mousedown", handleClickOutside);
-		return () => {
-			document.removeEventListener("mousedown", handleClickOutside);
-		};
-	}, [languageRef]);
-
-	// const workRef = useRef(null);
+	// const languageRef = useRef(null);
 	// useEffect(() => {
 	// 	function handleClickOutside(event) {
-	// 		if (workRef.current && !workRef.current.contains(event.target)) {
-	// 			setShowWorks(false);
+	// 		if (languageRef.current && !languageRef.current.contains(event.target)) {
+	// 			setShowLanguages(false);
 	// 		}
 	// 	}
 
@@ -72,7 +46,7 @@ function Header() {
 	// 	return () => {
 	// 		document.removeEventListener("mousedown", handleClickOutside);
 	// 	};
-	// }, [workRef]);
+	// }, [languageRef]);
 
 	return (
 		<div className='header' id='header'>
@@ -102,12 +76,10 @@ function Header() {
 						<li className='li-self li2'><a href='#about'>About</a> </li>
 						<li className="li-self li3" ><a href="#works">My Works</a>	</li>
 						<li className='li-self li4'><a href='#contact'>Contact</a> </li>
-						<li className="dropdown" ref={languageRef} data-dropdown onClick={toggleLanguages}>
-							<div className='dropdown__link' data-dropdown-button><BsGlobe /></div>
-							{showLanguages && <div className='drpdwn-lang'>
+						<li className="dropdown" >
 								<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>GR</button>
+								<span>/</span>
 								<button className="button-eng" value="en" onClick={(e) => setLang(e.target.value)}>EN</button>
-							</div>}
 						</li>
 					</ul>
 				</div>
