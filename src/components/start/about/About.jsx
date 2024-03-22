@@ -16,10 +16,10 @@ function About() {
 		<div className="about" id='about'>
 			<div className="about__cont">
 				<div className="about__cont--title">
+					<div className="img-cont"><div className="img-self"></div></div>
 					<div className="name-box">
 						<h5>Hi, my name is</h5>
 					</div>
-					<div className="img-cont"><div className="img-self"></div></div>
 				</div>
 				<h1>Ruslan Tissen</h1>
 
