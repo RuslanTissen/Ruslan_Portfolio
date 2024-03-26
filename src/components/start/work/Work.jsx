@@ -16,7 +16,7 @@ function Work() {
 					<picture className='wrapper'>
 						<source media="(max-width: 799px)" srcset={work1} />
 						<source media="(min-width: 800px)" srcset={work1} />
-						<img className='img' src={work1} alt="" />
+						<img className='img-work' src={work1} alt="" />
 					</picture>
 				</a>
 			</div>
