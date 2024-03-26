@@ -2,6 +2,7 @@ import React from 'react'
 import "./Start.scss"
 import About from './about/About.jsx'
 import Introduction from './introduction/Introduction.jsx'
+import  Work  from './work/Work.jsx'
 
 function Start() {
 	return (
@@ -9,6 +10,8 @@ function Start() {
 			<About />
 
 			<Introduction />
+
+			<Work />
 
 		</div>
 	)
