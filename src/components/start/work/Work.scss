@@ -6,21 +6,22 @@
 		max-width: 1500px;
 		display: flex;
 		flex-wrap: wrap;
-		padding: clamp(3rem, 10vw, 10rem) var(--padding-section);
+		padding: clamp(1rem, 3vw, 3rem) var(--padding-section);
 		margin: 0 auto;
 		.work__text-cont {
 			flex: 1 1 100%;
 			max-width: 500px;
-			height: auto;
+			// height: auto;
 			display: flex;
 			flex-direction: column;
+			justify-content: center;
 			margin: 0 auto;
 			p {
 			}
 			h6 {
 				font-weight: 300;
 				margin: 0.5rem 0 0.2rem;
-				margin-top: auto;
+				// margin-top: auto;
 			}
 			a {
 				font-size: 0.67em;
@@ -51,6 +52,17 @@
 			}
 		}
 	}
-	@media (min-width: 1060px) {
+	@media (min-width: 1300px) {
+		.work-cont {
+			position: relative;
+			.work__text-cont::after {
+				content: "";
+				border-right: 1px solid white;
+				height: 40%;
+				position: absolute;
+				right: 50%;
+				top: 30%;
+			}
+		}
 	}
 }
