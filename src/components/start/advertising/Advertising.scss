@@ -1,0 +1,31 @@
+.advertising {
+	background-color: #3c6478;
+	.advertising-cont {
+		max-width: 1500px;
+		margin: 0 auto;
+		padding: clamp(3rem, 10vw, 10rem) clamp(1rem, 3vw, 3rem);
+		color: white;
+		display: flex;
+		flex-wrap: wrap;
+		gap: clamp(1rem, 3vw, 3rem);
+		.services{
+			flex: 1 1 48%;
+			text-wrap: balance;
+			// max-width: 450px;
+			// padding: 0 clamp(1rem, 3vw, 3rem);
+
+		}
+		.small {
+		}
+		.middle {
+		}
+		.big {
+		}
+		.shopify {
+		}
+		.designed {
+		}
+		.ai {
+		}
+	}
+}
