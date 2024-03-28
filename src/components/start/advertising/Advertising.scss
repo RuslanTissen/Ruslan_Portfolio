@@ -8,12 +8,17 @@
 		display: flex;
 		flex-wrap: wrap;
 		gap: clamp(1rem, 3vw, 3rem);
-		.services{
+		.services {
 			flex: 1 1 48%;
 			text-wrap: balance;
 			// max-width: 450px;
 			// padding: 0 clamp(1rem, 3vw, 3rem);
-
+			h2 {
+				text-transform: uppercase;
+				span {
+					color: orange;
+				}
+			}
 		}
 		.small {
 		}

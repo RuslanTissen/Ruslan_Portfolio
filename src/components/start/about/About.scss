@@ -1,8 +1,13 @@
 .about {
 	height: fit-content;
-	background-color: #3c6478;
+	// background-color: #3c6478;
 	color: white;
 	padding: clamp(3rem, 10vw, 5rem) 0 clamp(2rem, 8vw, 4rem) 0;
+	background-image: url("../../../images/backgrd-main-8.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
 	.about__cont {
 		max-width: 1500px;
 		margin: 0 auto;
@@ -30,7 +35,7 @@
 				justify-content: end;
 				.img-self {
 					width: clamp(100px, 30vw, 20rem);
-					height: clamp(100px,30vw, 20rem);
+					height: clamp(100px, 30vw, 20rem);
 					background-image: url("../../../images/Ruslan_Gray_Photo.jpg");
 					background-position: center;
 					background-repeat: no-repeat;
