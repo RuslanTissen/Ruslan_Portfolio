@@ -23,11 +23,6 @@ function About() {
 				</div>
 				<h1>Ruslan Tissen</h1>
 
-				{/* <img src={photo} alt="Ups, it should be my image" /> */}
-
-				{/* <h3>Shaping the Web, One Project at a Time.</h3> */}
-
-				{/* <a href="mailto:rthyssen73@gmail.com">Contact</a> */}
 			</div>
 
 		</div>
