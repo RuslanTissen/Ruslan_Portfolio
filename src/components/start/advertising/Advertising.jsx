@@ -3,7 +3,7 @@ import "./Advertising.scss"
 
 function Advertising() {
 	return (
-		<div className='advertising'>
+		<div className='advertising' id='adverts'>
 			<div className="advertising-cont">
 
 				<div className='small services'>

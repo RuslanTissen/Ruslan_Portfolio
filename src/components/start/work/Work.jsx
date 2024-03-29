@@ -6,7 +6,7 @@ import work3 from "../../../images/work-3.png"
 
 function Work() {
 	return (
-		<div className='work'>
+		<div className='work' id='works'>
 
 			<div className="work-cont">
 				<div className="work__text-cont work__text-cont--3">

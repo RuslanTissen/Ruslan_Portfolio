@@ -13,7 +13,7 @@ function Contact() {
 	return (
 		<div className='contact' id='contact'>
 			<div className="contact__title-box">
-				<p className="contact__title-box--title">{trans[lang].contact}</p>
+				<h2 className="contact__title-box--title">{trans[lang].contact}</h2>
 				<div className="contact__title-box--underline-dig"></div>
 				<div className="contact__title-box--underline-thin"></div>
 			</div>

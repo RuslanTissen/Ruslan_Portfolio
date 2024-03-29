@@ -9,7 +9,7 @@ import "./Introduction.scss"
 
 function Introduction() {
 	return (
-		<div className="introduction">
+		<div className="introduction" id='intro'>
 			<div className="introduction__cont">
 				<p>"Welcome to my Web Development Studio! I specialize in creating responsive websites using the latest techniques, including AI integration. With a focus on staying ahead of trends, I ensure your website not only meets but exceeds current design standards, providing your audience with an engaging user experience."</p>
 			</div>

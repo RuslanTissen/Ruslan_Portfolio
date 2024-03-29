@@ -51,14 +51,15 @@ function Header() {
 	return (
 		<div className='header' id='header'>
 			<ul className="header__smart-cont" ref={menuRef}>
-				<a className='logo' href='#header'>	TISSEN</a>
+				<a className='logo' href='#'>	TISSEN</a>
 				<li className='header__smart-cont--hamburger-box' onClick={toggleMenu}>
 					{active ? <RxHamburgerMenu /> : <RxCross1 />}
 				</li>
 				{show && <ul className="header__smart-cont--humb-cont" onClick={toggleMenu}>
-					<li className='humb-link'><a to='*' onClick={scrollToTheTop}>Home</a> </li>
-					<li className='humb-link'><a href='#about'>About</a> </li>
-					<li className='humb-link'><a href='#works'>My works</a> </li>
+					<li className='humb-link'><a href='#'>Home</a> </li>
+					<li className='humb-link'><a href='#intro'>About</a> </li>
+					<li className="li-self li3" ><a href="#works">Projects</a>	</li>
+					<li className="li-self li3" ><a href="#adverts">Promotion</a>	</li>
 					<li className='humb-link'><a href='#contact'>Contact</a> </li>
 					<li className='humb-link humb-link--lang'>
 						<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ES</button>
@@ -69,17 +70,18 @@ function Header() {
 
 			<div className='header__pc'>
 				<div className="header__pc-cont">
-					<a className='logo-pc' href='#header'>TISSEN</a>
+					<a className='logo-pc' href='#'>TISSEN</a>
 
 					<ul className="nav">
-						<li className='li-self li1'><a href='#header'>Home</a></li>
-						<li className='li-self li2'><a href='#about'>About</a> </li>
-						<li className="li-self li3" ><a href="#works">My Works</a>	</li>
+						<li className='li-self li1'><a href='#'>Home</a></li>
+						<li className='li-self li2'><a href='#intro'>About</a> </li>
+						<li className="li-self li3" ><a href="#works">Projects</a>	</li>
+						<li className="li-self li3" ><a href="#adverts">Promotion</a>	</li>
 						<li className='li-self li4'><a href='#contact'>Contact</a> </li>
 						<li className="dropdown" >
-								<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>GR</button>
-								<span>/</span>
-								<button className="button-eng" value="en" onClick={(e) => setLang(e.target.value)}>EN</button>
+							<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>GR</button>
+							<span>/</span>
+							<button className="button-eng" value="en" onClick={(e) => setLang(e.target.value)}>EN</button>
 						</li>
 					</ul>
 				</div>
