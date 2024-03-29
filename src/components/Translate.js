@@ -7,29 +7,18 @@ const trans = {
 		contact: "Contact",
 
 		// Itroduction
-		introTitle: "Maximize Your Full Potential",
-		introText: "Take control of your body through discipline and love.",
-		introBook: "Book now ",
+		introText: "Welcome to my Web Development Studio! I specialize in creating responsive websites using the latest techniques, including AI integration. With a focus on staying ahead of trends, I ensure your website not only meets but exceeds current design standards, providing your audience with an engaging user experience.",
 
 		// ABOUT
-		aboutTitle: "meet your",
-		aboutText: "What type of body makes you happy? What skin do you feel comfortable in? What training awakens...passion in me ? As a woman with social media, I had to understand pretty soon that the only body that matters must be mine but that journey took me through almost 10 years of coaching, nutritionists, and books really different in between.	The first questions bring me light on my darkest moments and now I want to push people to the bright side of fitness.",
-		aboutContact: "Contact now",
+		myName: "Hi, my name is",
 
-		//PRICING
-		pricingService: "Services",
-		pricingWeeks: "4 weeks",
-		pricingStart: "start now",
-		pricingNutrition: "nutrition plan",
-		pricingPlanning: "planning for the gym or at home",
-		pricingSet: "set your goal with my guide",
-		// pricingBuild: "build visualization",
-		// pricingGoal: "goal-setting techniques",
-		pricing8Weeks: "8 weeks",
-		pricingEverything: "Everything from the 4-week plan but with stretching",
-		// pricingImprove: "Improve Motivation and Team-Building Skills",
-		// pricingConquer: "Conquer Anxiety",
-		// pricingLearn: "Learn the Art of Rehabilitation",
+		//Work
+		bigProject: "This is a large-scale project featuring multiple languages, advanced technologies, dynamic animations, and extensive specialized content.",
+		bigTetch: "Technologies: JavaScript, ReactJS, JSX, Material-UI (MUI), SASS, Animation",
+		simpleProject: "This is a straightforward and speedy webpage designed specifically for small businesses. It's crafted to deliver information swiftly and effortlessly.",
+		simpleTech: "Technologies: JavaScript, ReactJS, SASS, Canva",
+		fastProject: "This page is optimized for both mobile phones and computers, and it's available in two languages. It loads quickly, allowing you to access content promptly. With its sleek and modern design, it offers an enjoyable user experience.",
+		fastTech: "Technologies: JavaScript, ReactJS, SASS, Canva, Material-UI (MUI), React Icons",
 
 		//Stretching
 		stretching: "streching",
@@ -56,58 +45,22 @@ const trans = {
 		projects: "Projekte",
 		promotion: "Förderung",
 		contact: "Kontakt",
+
+		// Itroduction
+		introText: "Willkommen in meinem Webentwicklungsstudio! Ich habe mich auf die Erstellung responsiver Websites unter Verwendung der neuesten Techniken spezialisiert, einschließlich KI-Integration. Mit dem Fokus darauf, den Trends einen Schritt voraus zu sein, sorge ich dafür, dass Ihre Website nicht nur den aktuellen Designstandards entspricht, sondern sie übertrifft und Ihrem Publikum ein ansprechendes Benutzererlebnis bietet.",
+
+		// ABOUT
+		myName: "Hi, mein Name ist",
+
+		//Work
+		bigProject: "Dies ist ein groß angelegtes Projekt mit mehreren Sprachen, fortschrittlichen Technologien, dynamischen Animationen und umfangreichen spezialisierten Inhalten.",
+		bigTetch: "Technologien: JavaScript, ReactJS, JSX, Material-UI (MUI), SASS, Animation",
+		simpleProject: "Dies ist eine einfache und schnelle Webseite, die speziell für kleine Unternehmen entwickelt wurde. Sie wurde gestaltet, um Informationen schnell und mühelos zu liefern.",
+		simpleTech: "Technologien: JavaScript, ReactJS, SASS, Canva",
+		fastProject: "Diese Seite ist für sowohl Mobiltelefone als auch Computer optimiert und ist in zwei Sprachen verfügbar. Sie lädt schnell, sodass Sie schnell auf Inhalte zugreifen können. Mit ihrem schlanken und modernen Design bietet sie ein angenehmes Benutzererlebnis.",
+		fastTech: "Technologien: JavaScript, ReactJS, SASS, Canva, Material-UI (MUI), React Icons",
+
 	}
-	// es: {
-	// 	coach: "entrenadora",
-	// 	plans: "planes",
-	// 	straching: "streching",
-	// 	contact: "contacto",
-
-	// 	// Itroduction
-	// 	introTitle: "Maximiza tu potencial",
-	// 	introText: "Toma el control de tu cuerpo con disciplina y amor.",
-	// 	introBook: "Reservar ahora ",
-
-	// 	// ABOUT
-	// 	aboutTitle: "Conoce a tu",
-	// 	aboutText: "Que tipo de cuerpo te hace feliz?  En qué piel te sientes cómoda? Que tipo de entrenamiento diespierta la pasión en ti? Como una mujer con redes sociales, tuve que entender más pronto que tarde, que el único cuerpo que importa debe tiene que ser el mío… pero ese proceso tardo 10 años de estudios y autoconocimiento. Las preguntas del principio me dieron luz en los momentos más oscuros y ahora quiero llevarte conmigo al mejor lado del fitness.",
-	// 	aboutContact: "Contacta ahora",
-
-	// 	//PRICING
-	// 	pricingService: "Servicios",
-	// 	pricingWeeks: "4 semanas",
-	// 	pricingStart: "empezar ahora",
-	// 	pricingNutrition: "Plan de nutrición",
-	// 	pricingPlanning: "planning for the gym or at home",
-	// 	pricingSet: "planificación para el gimnasio o en casa ",
-	// 	// pricingBuild: "establece un tu Meta con mi guía",
-	// 	// pricingGoal: "técnicas de establecimiento de objetivos",
-	// 	pricing8Weeks: "8 semanas",
-	// 	pricingEverything: "Todo lo del plan de 4 semanas pero con stretching",
-	// 	// pricingImprove: "Mejorar la motivación y las habilidades para formar equipos",
-	// 	// pricingConquer: "Vencer la ansiedad",
-	// 	// pricingLearn: "Aprenda el arte de la rehabilitación",
-
-	// 	//Stretching
-	// 	stretching: "stretching",
-	// 	stretchingCourse: "curso",
-	// 	stretchingText: "El Curso de Estiramiento, desarrollado por Pipi, ofrece un enfoque único para mejorar la flexibilidad y el bienestar. Con la experiencia de Pipi, los participantes son guiados a través de técnicas de estiramiento innovadoras diseñadas para mejorar el rango de movimiento y reducir la tensión muscular. Este curso permite a las personas priorizar el cuidado personal y desbloquear el potencial de su cuerpo para mejorar la movilidad y la salud general.",
-	// 	stretchingAvailable: "Disponible en ambas",
-	// 	stretchingSpanish: "Española",
-	// 	stretchingAnd: " y ",
-	// 	stretchingEnglish: "Inglesa",
-	// 	stretchingStart: "empezar ahora",
-	// 	stretchingBased: "según tus necesidades*",
-
-	// 	// CONTACT
-	// 	contact: "Mis contactos",
-
-	// 	// Footer
-	// 	footerCopyright: "Copyright © 2024 por",
-	// 	footerTissen: "Tissen Estudio",
-	// 	footerPowered: "motorizada"
-
-	// },
 }
 
 export default trans

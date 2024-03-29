@@ -1,17 +1,21 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "./Work.scss"
 import work1 from "../../../images/work-1.png"
 import work2 from "../../../images/work-2.png"
 import work3 from "../../../images/work-3.png"
+import { Context } from '../../Context'
+import trans from '../../Translate.js'
 
 function Work() {
+	const {lang} = useContext(Context)
+
 	return (
 		<div className='work' id='works'>
 
 			<div className="work-cont">
 				<div className="work__text-cont work__text-cont--3">
-					<p>Here's a big project with many languages and lots of specific information.</p>
-					<h6>Technologies: JavaScript, ReactJS, SCSS, CANVA, MUI</h6>
+					<p>{trans[lang].bigProject}</p>
+					<h6>{trans[lang].bigTetch}</h6>
 					<a href='https://github.com/RuslanTissen/Pipi-world-3' target="_blank">GitHub</a>
 
 				</div>
@@ -26,8 +30,8 @@ function Work() {
 
 			<div className="work-cont">
 				<div className="work__text-cont work__text-cont--2">
-					<p>Here's a simple and fast webpage for small businesses. It's made to get info quickly and easily.</p>
-					<h6>Technologies: JavaScript, ReactJS, SCSS, CANVA, MUI</h6>
+					<p>{trans[lang].simpleProject}</p>
+					<h6>{trans[lang].simpleTech}</h6>
 					<a href='https://github.com/RuslanTissen/Pipi-world-3' target="_blank">GitHub</a>
 
 				</div>
@@ -42,8 +46,8 @@ function Work() {
 
 			<div className="work-cont">
 				<div className="work__text-cont work__text-cont--1">
-					<p>This page works on phones and computers, and it's in two languages. It loads fast so you can see stuff quickly. It looks really nice and modern, so it's fun to use.</p>
-					<h6>Technologies: JavaScript, ReactJS, SCSS, CANVA, MUI</h6>
+					<p>{trans[lang].fastProject}</p>
+					<h6>{trans[lang].fastTech}</h6>
 					<a href='https://github.com/RuslanTissen/Pipi-world-3' target="_blank">GitHub</a>
 
 				</div>

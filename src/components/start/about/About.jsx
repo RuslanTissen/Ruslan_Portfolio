@@ -1,16 +1,10 @@
 import React, { useContext } from 'react'
 import "./About.scss"
-// import { NavLink } from 'react-router-dom'
-// import { Context } from '../../Context.js'
-// import trans from '../../Translate.js'
-import photo from "../../../images/Ruslan_Gray_Photo.jpg"
+import { Context } from '../../Context.js'
+import trans from '../../Translate.js'
 
 function About() {
-	// const { lang } = useContext(Context)
-
-	// const scrollToTheTop = () => {
-	// 	window.scroll(0, 0)
-	// }
+	const { lang } = useContext(Context)
 
 	return (
 		<div className="about" id='about'>
@@ -18,7 +12,7 @@ function About() {
 				<div className="about__cont--title">
 					<div className="img-cont"><div className="img-self"></div></div>
 					<div className="name-box">
-						<h5>Hi, my name is</h5>
+						<h5>{trans[lang].myName}</h5>
 					</div>
 				</div>
 				<h1>Ruslan Tissen</h1>
