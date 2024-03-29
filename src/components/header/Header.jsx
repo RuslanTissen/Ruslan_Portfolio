@@ -58,12 +58,12 @@ function Header() {
 				{show && <ul className="header__smart-cont--humb-cont" onClick={toggleMenu}>
 					<li className='humb-link'><a href='#'>Home</a> </li>
 					<li className='humb-link'><a href='#intro'>About</a> </li>
-					<li className="li-self li3" ><a href="#works">Projects</a>	</li>
-					<li className="li-self li3" ><a href="#adverts">Promotion</a>	</li>
+					<li className="humb-link" ><a href="#works">Projects</a>	</li>
+					<li className="humb-link" ><a href="#adverts">Promotion</a>	</li>
 					<li className='humb-link'><a href='#contact'>Contact</a> </li>
 					<li className='humb-link humb-link--lang'>
-						<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ES</button>
 						<button className="button-eng" value="en" onClick={(e) => setLang(e.target.value)}>EN</button>
+						<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ES</button>
 					</li>
 				</ul>}
 			</ul>
@@ -79,9 +79,9 @@ function Header() {
 						<li className="li-self li3" ><a href="#adverts">Promotion</a>	</li>
 						<li className='li-self li4'><a href='#contact'>Contact</a> </li>
 						<li className="dropdown" >
-							<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>GR</button>
-							<span>/</span>
 							<button className="button-eng" value="en" onClick={(e) => setLang(e.target.value)}>EN</button>
+							<span>/</span>
+							<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>GR</button>
 						</li>
 					</ul>
 				</div>

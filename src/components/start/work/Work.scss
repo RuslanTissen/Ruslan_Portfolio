@@ -6,6 +6,7 @@
 		max-width: 1500px;
 		display: flex;
 		flex-wrap: wrap;
+			gap: 1rem;
 		padding: clamp(1rem, 3vw, 3rem) var(--padding-section);
 		margin: 0 auto;
 		.work__text-cont {
@@ -36,18 +37,19 @@
 			display: flex;
 			.wrapper {
 				width: 100%;
-				padding-bottom: 56.25%;
-				position: relative;
-				overflow: hidden;
+				// padding-bottom: 56.25%;
+				// position: relative;
+				// overflow: hidden;
 				.img-work {
 					width: 100%;
-					height: auto;
-					position: absolute;
-					top: -50%;
-					left: -50%;
-					right: -50%;
-					bottom: -50%;
-					margin: auto;
+					display: block;
+					// height: auto;
+					// position: absolute;
+					// top: -50%;
+					// left: -50%;
+					// right: -50%;
+					// bottom: -50%;
+					// margin: auto;
 				}
 			}
 		}

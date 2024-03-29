@@ -35,16 +35,18 @@
 		.header__smart-cont--humb-cont {
 			list-style-type: none;
 			margin: 0;
-			padding: 0;
+			padding:clamp(.1rem, .5vw, .5rem) 0 0;
 			position: absolute;
 			width: 100px;
-			top: 49px;
+			top: 34px;
 			right: 0;
+			font-size: small;
 			.humb-link {
+				margin: 0.1rem 0;
 				a {
 					text-decoration: none;
-					color: white;
-					margin: 0.5rem 0;
+					color: orange;
+					text-transform: uppercase;
 				}
 			}
 			.humb-link--lang {
@@ -55,7 +57,7 @@
 					margin-right: 1rem;
 					cursor: pointer;
 					background-color: transparent;
-					color: white;
+					color: orange;
 				}
 			}
 		}
