@@ -1,7 +1,9 @@
 import React, { useContext } from 'react';
 import "./Contact.scss";
-import { FaWhatsapp, FaInstagram } from 'react-icons/fa';
-import { SiGmail, SiUpwork } from "react-icons/si";
+import { FaWhatsapp, FaLinkedinIn } from 'react-icons/fa';
+import { IoLogoGithub } from "react-icons/io";
+// import { SiGmail, SiUpwork } from "react-icons/si";
+import { BiLogoGmail } from "react-icons/bi";
 import trans from '../../Translate.js';
 import { Context } from '../../Context.js';
 
@@ -16,10 +18,10 @@ function Contact() {
 				<div className="contact__title-box--underline-thin"></div>
 			</div>
 			<div className="contact__media">
-				<a className='contact__media--links' href='mailto:priscylatosti@gmail.com' target='_blank'><SiGmail /></a>
-				<a className='contact__media--links' href='https://wa.me/14155797059' target='_blank'><FaWhatsapp /></a>
-				<a className='contact__media--links' href='https://www.upwork.com/freelancers/~01fe4cfc87ce82d6a8' target='_blank'><SiUpwork /></a>
-				<a className='contact__media--links' href='https://www.instagram.com/pipitosti/' target='_blank'><FaInstagram /></a>
+				<a className='contact__media--links' href='mailto:rthyssen73@gmail.com' target='_blank'><BiLogoGmail /></a>
+				<a className='contact__media--links' href='https://wa.me/4915566323269' target='_blank'><FaWhatsapp /></a>
+				<a className='contact__media--links' href='https://www.linkedin.com/in/ruslan-tissen-3799119b/' target='_blank'><FaLinkedinIn /></a>
+				<a className='contact__media--links' href='https://github.com/RuslanTissen' target='_blank'><IoLogoGithub /></a>
 			</div>
 		</div>
 	)
