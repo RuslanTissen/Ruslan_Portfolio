@@ -1,13 +1,13 @@
 .about {
 	height: fit-content;
-	// background-color: #3c6478;
+	background-color: #3c6478;
 	color: white;
-	padding: clamp(3rem, 10vw, 5rem) 0 clamp(4rem, 20vw, 10rem) 0;
-	background-image: url("../../../images/backgroound-main.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
+	padding: clamp(3rem, 10vw, 5rem) 0 clamp(3rem, 10vw, 5rem) 0;
+	// background-image: url("../../../images/backgroound-main.png");
+	// background-repeat: no-repeat;
+	// background-size: cover;
+	// background-position: center;
+	// background-attachment: fixed;
 	.about__cont {
 		max-width: 1500px;
 		margin: 0 auto;
