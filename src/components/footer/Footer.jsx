@@ -1,6 +1,4 @@
 import React, { useContext } from 'react'
-import { NavLink } from 'react-router-dom'
-import { IoDiamondSharp } from "react-icons/io5";
 import trans from '../Translate.js';
 import { Context } from '../Context'
 import "./Footer.scss"

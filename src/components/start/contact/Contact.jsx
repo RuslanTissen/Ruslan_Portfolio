@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import "./Contact.scss";
 import { FaWhatsapp, FaLinkedinIn } from 'react-icons/fa';
 import { IoLogoGithub } from "react-icons/io";
-// import { SiGmail, SiUpwork } from "react-icons/si";
 import { BiLogoGmail } from "react-icons/bi";
 import trans from '../../Translate.js';
 import { Context } from '../../Context.js';

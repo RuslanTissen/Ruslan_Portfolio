@@ -94,6 +94,8 @@ const trans = {
 		advertServices: "-Dienstleistungen: Ihre Vision, Unsere Expertise",
 		advertYour: "Ihr Website ist das Aushängeschild Ihrer Marke online, und unsere maßgeschneiderten Webdesign-Dienstleistungen sind hier, um sicherzustellen, dass sie einen bleibenden Eindruck hinterlässt. Wir glauben, dass jedes Unternehmen einzigartig ist, und Ihre Website sollte das widerspiegeln. Unser Team talentierter Designer arbeitet eng mit Ihnen zusammen, um Ihre Marke, Ihre Ziele und Ihr Publikum zu verstehen und eine maßgeschneiderte Website zu gestalten, die so einzigartig ist wie Ihr Unternehmen. Von schlanken und modernen Designs bis hin zu kühnen und kreativen Layouts setzen wir Ihre Vision mit Liebe zum Detail und pixelgenauer Präzision um. Ob Sie eine brandneue Website benötigen oder eine Überarbeitung Ihrer bestehenden Website, wir sind hier, um ein beeindruckendes, benutzerfreundliches Erlebnis zu bieten, das Sie von der Konkurrenz abhebt. Lassen Sie uns gemeinsam etwas Außergewöhnliches schaffen!",
 
+		// CONTACT
+		contact: "Meine Kontakte",
 	}
 }
 
