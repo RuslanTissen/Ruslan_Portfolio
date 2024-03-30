@@ -96,6 +96,11 @@ const trans = {
 
 		// CONTACT
 		contact: "Meine Kontakte",
+
+		// Footer
+		footerCopyright: "Urheberrecht © 2024 von",
+		footerTissen: "Tissen Studio",
+		footerPowered: "betrieben"
 	}
 }
 
