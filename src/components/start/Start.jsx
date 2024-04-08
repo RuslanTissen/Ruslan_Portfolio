@@ -5,6 +5,7 @@ import Introduction from './introduction/Introduction.jsx'
 import Work from './work/Work.jsx'
 import Advertising from './advertising/Advertising.jsx'
 import Contact from './contact/Contact.jsx'
+import Weather from "./weather/Weather.jsx"
 
 function Start() {
 	return (
@@ -16,6 +17,8 @@ function Start() {
 			<Work />
 
 			<Advertising />
+
+			{/* <Weather /> */}
 
 			<Contact />
 

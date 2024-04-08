@@ -21,8 +21,8 @@ function Work() {
 				</div>
 				<a className="work__img-cont" href="https://tissen.tech/" target="_blank">
 					<picture className='wrapper'>
-						<source media="(max-width: 799px)" srcset={work3} />
-						<source media="(min-width: 800px)" srcset={work3} />
+						<source media="(max-width: 799px)" srcSet={work3} />
+						<source media="(min-width: 800px)" srcSet={work3} />
 						<img className='img-work' src={work3} alt="" />
 					</picture>
 				</a>
@@ -37,8 +37,8 @@ function Work() {
 				</div>
 				<a className="work__img-cont" href="https://portfolio2.tissen.tech/" target="_blank">
 					<picture className='wrapper'>
-						<source media="(max-width: 799px)" srcset={work2} />
-						<source media="(min-width: 800px)" srcset={work2} />
+						<source media="(max-width: 799px)" srcSet={work2} />
+						<source media="(min-width: 800px)" srcSet={work2} />
 						<img className='img-work' src={work2} alt="" />
 					</picture>
 				</a>
@@ -53,8 +53,8 @@ function Work() {
 				</div>
 				<a className="work__img-cont" href="https://priscila.tissen.tech/" target="_blank">
 					<picture className='wrapper'>
-						<source media="(max-width: 799px)" srcset={work1} />
-						<source media="(min-width: 800px)" srcset={work1} />
+						<source media="(max-width: 799px)" srcSet={work1} />
+						<source media="(min-width: 800px)" srcSet={work1} />
 						<img className='img-work' src={work1} alt="" />
 					</picture>
 				</a>
