@@ -1,17 +1,35 @@
-fetch("https://api.oceandrivers.com/static/resources.json")
-	.then(res => {
-		if (res.ok) {
-			console.log("SUCCESS")
-		} else{
-			console.log("NOT success")
-		}
-		res.json()
-	})
-	.then(data => console.log(data))
-	.catch(error => console.log("ERROR"))
+import React from 'react'
+import "./Weather.scss"
+
+function Weather() {
+	fetch("https://jsonplaceholder.typicode.com/posts")
+		.then(response => response.json())
+		.then(post => {
+			console.log(post)
+			const li = document.createElement("li")
+			li.innerText = post[1].title
+			document.querySelector("#weather").prepend(li)
+		})
+		.catch(error => console.log(error))
+
+	return (
+		<div className='weather' id='weather'>
 
 
 
 
 
-// curl http://localhost:3000/weather/Curitiba
+
+		</div>
+	)
+}
+
+export default Weather
+
+
+
+
+
+
+
+
