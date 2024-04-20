@@ -3,24 +3,26 @@ import "./Weather.scss"
 
 function Weather() {
 	const [data, setData] = useState(null)
-
 	const url = `https://jsonplaceholder.typicode.com/posts`
 
 	useEffect(() => {
 		fetch(url)
-			.then(response => response.json())
-			.then(post => {
-				setData(post)
-				{
-					data && data.forEach(post => {
-						const li = document.createElement("li")
-						li.innerText = post.title
-						document.querySelector("#posts").append(li)
-					})
-				}
-			})
-			.catch(error => console.log(error))
-	}, [])
+		  .then((response) => response.json())
+		  .then((posts) => {
+			 setData(posts);
+		  })
+		  .catch((error) => console.log(error));
+	 }, []);
+  
+	 useEffect(() => {
+		if (data) {
+		  data.forEach((post) => {
+			 const li = document.createElement('li');
+			 li.innerText = post.title;
+			 document.querySelector('#posts').append(li);
+		  });
+		}
+	 }, [data]);
 
 	useEffect(() => {
 		document.querySelector("#save").addEventListener("click", () => {
@@ -34,11 +36,14 @@ function Weather() {
 					userId: 1
 				}),
 				headers: {
-					'Content-type': 'application/json; charset=UTF-8',
+					'Content-type': 'application/json',
 				}
 			}
 
-			fetch(url)
+			fetch(url, config)
+				.then(res => res.json())
+				.then(result => { console.log(result) })
+				.catch(error => { console.error("Oh no", error) })
 		})
 	}, [])
 
@@ -48,7 +53,9 @@ function Weather() {
 			<input type="text" id='content' />
 			<button id="save">Create post</button>
 
-			<ul id='posts'></ul>
+			<ul id='posts'>
+
+			</ul>
 
 		</div>
 	)
