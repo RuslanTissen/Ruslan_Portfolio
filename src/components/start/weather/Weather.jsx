@@ -42,7 +42,12 @@ function Weather() {
 
 			fetch(url, config)
 				.then(res => res.json())
-				.then(result => { console.log(result) })
+				.then(post => { 
+					console.log(post) 
+					const li = document.createElement('li');
+					li.innerText = post.title;
+					document.querySelector('#posts').prepend(li);
+				})
 				.catch(error => { console.error("Oh no", error) })
 		})
 	}, [])
