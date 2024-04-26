@@ -8,10 +8,9 @@ function List(props) {
 	console.log(data)
 
 	return (
-		<ol className='list'>
-			{props.children}
-			{/* {data.map(card => <Card item={card} />)} */}
-		</ol>
+		<div className='list'>
+			{data.map(card => <Card item={card} />)}
+		</div>
 	)
 }
 

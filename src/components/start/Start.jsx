@@ -43,11 +43,9 @@ function Start() {
 
 			{/* <Weather /> */}
 
-			<List >
-				{images.map(card => <li>{card.text}</li>)}
-			</List>
-			{/* <hr />
-			<List data={properties} /> */}
+			<List data={images} />
+			<hr />
+			<List data={properties} />
 
 			{/* <Contact /> */}
 
