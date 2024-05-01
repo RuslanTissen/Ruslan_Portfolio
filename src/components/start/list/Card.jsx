@@ -6,9 +6,9 @@ function Card(props) {
 
 
 	return (
-		<div className='card'>
-			<p>{props.item.text}</p>
-		</div>
+		<ol className='card'>
+			<li>{props.item.text}</li>
+		</ol>
 	)
 }
 

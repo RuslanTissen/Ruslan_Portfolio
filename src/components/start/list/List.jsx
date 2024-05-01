@@ -4,7 +4,6 @@ import Card from "./Card.jsx"
 
 function List(props) {
 	const { data } = props
-
 	console.log(data)
 
 	return (
