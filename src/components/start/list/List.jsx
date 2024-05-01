@@ -19,7 +19,7 @@ function List(props) {
 
 			{/* <img>{data.title}</img> */}
 
-			<img src={data.thumbnailUrl} alt="" />
+			<img src={data.thumbnailUrl} alt="Ups, it should be foto" />
 
 
 
