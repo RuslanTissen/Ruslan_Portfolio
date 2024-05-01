@@ -43,7 +43,7 @@ function Start() {
 
 			{/* <Weather /> */}
 
-			<List data={images} />
+			<List />
 
 			{/* <Contact /> */}
 

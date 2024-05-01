@@ -1,14 +1,29 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "./List.scss"
-import Card from "./Card.jsx"
+// import Card from "./Card.jsx"
 
 function List(props) {
-	const { data } = props
+	const [data, setData] = useState([])
+
+	useEffect(() => {
+		fetch('https://jsonplaceholder.typicode.com/photos/250')
+			.then((response) => response.json())
+			.then(result => setData(result));
+	}, [])
+
 	console.log(data)
+
 
 	return (
 		<div className='list'>
-			{data.map(card => <Card item={card} />)}
+
+			{/* <img>{data.title}</img> */}
+
+			<img src={data.thumbnailUrl} alt="" />
+
+
+
+			{/* {data.map(card => <Card item={card} />)} */}
 		</div>
 	)
 }
